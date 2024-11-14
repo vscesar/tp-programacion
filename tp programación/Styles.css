@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+header {
+  background-color: #8a8a8a;
+  color: #fff;
+  padding: 0.5em;
+  text-align: left;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.enlace {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.enlace {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-decoration: none; 
+}
+
+nav{
+  padding: 40px;
+  text-align: center;
+  font-size: large;
+}
+
+nav ul {
+  margin-right: 20px;
+  
+}
+
+div {
+  align-items: start;
+
+}
+
+a{
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+input{
+  height: 30px;
+  width: 175px;
+}
+
+b{
+  font-family: Arial, light, sans-serif;
+}
+
+section {
+  border-radius: 1%;
+  background-color: #8a8a8a;
+  color: #fff;
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 0;
+  padding: 0px;
+}
+
+p{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 0;
+  padding: 0px;
+}
+
+ul {
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  background-color: #8a8a8a;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  font-size: larger;
+}
+
+.card {
+  background-color: #8a8a8a; 
+  border: 1px solid #ddd;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card img {
+  width: 300px;
+  height: 350px;
+  margin-right: 20px;
+}
+
+.perro1, .perro2 {
+  flex: 1;
+}
